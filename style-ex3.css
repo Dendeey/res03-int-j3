@@ -1,0 +1,39 @@
+body{
+    background-color: #4455b3;
+}
+
+body > main > section{
+    background-color: white;
+    position: absolute;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    height: 90vh;
+    width: 89vw;
+}
+
+h1{
+    color: #0e2872;
+    text-align: center;
+    margin-top: 2vh;
+    padding:0;
+    font-size: 1.5em;
+    font-family : 'Arial', sans-serif;
+}
+
+h2, h3, h4{
+    color: #4455b3;
+    font-size: 1.5em;
+    font-family : 'Arial', sans-serif;
+}
+
+.animaux{
+    
+}
+
+.mineraux{
+    
+}
+
+.vegetaux{
+    
+}
