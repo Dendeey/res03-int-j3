@@ -3,11 +3,11 @@ body{
 }
 
 body>main>section{
-    height: 50vh;
+    height: 55vh;
     width: 40vw;
     background-color: #ffffff;
     position: absolute;
-    margin-top: 24vh;
+    margin-top: 22vh;
     margin-left: 30vw;
     border-radius: 10px;
     box-shadow: 3px 3px 10px black;
@@ -21,9 +21,8 @@ body>main>section h1{
 }
 
 .form{
-    position: relative;
-    margin-left: 10vw;
-    margin-top: 3vh;
+    position: absolute;
+    margin-left: 9vw;
     font-family : 'Arial', sans-serif;
     font-weight: bold;
 }
@@ -34,14 +33,24 @@ body>main>section h1{
 
 button{
     position:relative;
-    margin-left: 0.5vw;
+    margin-left: 1vw;
     margin-top: 2vh;
-    border-radius: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: #4455b3;
+    color: white;
+    width: 10vw;
+    height: 5vh;
+    font-family : 'Arial', sans-serif;
+    font-size: 1em;
+    padding: 0;
+    font-weight: bold;
 }
 
-.form>fieldset input{
+.form>fieldset input[type="email"],
+.form>fieldset input[type="password"]{
     border-radius: 5px;
-    width: 18vw;
+    width: 20vw;
     height: 4vh;
     background-color: #c2cae8;
     border: none;
