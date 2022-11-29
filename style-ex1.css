@@ -1,0 +1,48 @@
+body{
+    background-color: #4455b3;
+}
+
+body>main>section{
+    height: 50vh;
+    width: 40vw;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 24vh;
+    margin-left: 30vw;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+
+body>main>section h1{
+    color: #4455b3;
+    font-family : 'Arial', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.form{
+    position: relative;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    font-family : 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.form fieldset,button{
+    border: none;
+}
+
+button{
+    position:relative;
+    margin-left: 0.5vw;
+    margin-top: 2vh;
+    border-radius: 10px;
+}
+
+.form>fieldset input{
+    border-radius: 5px;
+    width: 18vw;
+    height: 4vh;
+    background-color: #c2cae8;
+    border: none;
+}
