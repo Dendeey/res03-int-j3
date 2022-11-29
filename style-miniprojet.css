@@ -11,7 +11,7 @@ body{
     overflow-x: hidden;
 }
 
-body > header{
+body > header:first-of-type{
     background-color:#d52a54;
     position: fixed;
     width: 100vw;
@@ -115,7 +115,7 @@ h4{
 
 #third-section > article:first-of-type{
     height: 35vh;
-    width: 22vw;
+    width: 24vw;
     position: absolute;
     margin-top: 28vh;
     margin-left: 10vw;
@@ -129,16 +129,27 @@ h4{
     background-size: cover;
     height: 12vh;
     width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: 'Bitter', serif;
 }
 
 h5{
     color: white;
     text-align: center;
+    font-size: 1.3em;
+}
+
+#third-section > article:first-of-type p{
+    height: 25vh;
+    width: 22vw;
+    padding: 1em;
+    font-family: 'Bitter', serif;
 }
 
 #third-section > article:nth-of-type(2){
     height: 35vh;
-    width: 22vw;
+    width: 24vw;
     position: absolute;
     margin-top: 28vh;
     margin-left: 40vw;
@@ -152,16 +163,27 @@ h5{
     background-size: cover;
     height: 12vh;
     width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: 'Bitter', serif;
 }
 
 h6{
     color: white;
     text-align: center;
+    font-size: 1.3em;
+}
+
+#third-section > article:nth-of-type(2) p{
+    height: 25vh;
+    width: 22vw;
+    padding: 1em;
+    font-family: 'Bitter', serif;
 }
 
 #third-section > article:last-of-type{
     height: 35vh;
-    width: 22vw;
+    width: 24vw;
     position: absolute;
     margin-top: 28vh;
     margin-left: 70vw;
@@ -175,9 +197,139 @@ h6{
     background-size: cover;
     height: 12vh;
     width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: 'Bitter', serif;
 }
 
 h7{
     color: white;
     text-align: center;
+    font-size: 1.3em;
+    position: absolute;
+    top: 4vh;
+    width: 100%;
+    font-weight: bold;
+}
+
+#third-section > article:last-of-type p{
+    height: 25vh;
+    width: 22vw;
+    padding: 1em;
+    font-family: 'Bitter', serif;
+}
+
+#fourth-section{
+    background-color: white;
+    height: 100vh;
+}
+
+h8{
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    position: absolute;
+    margin-top: 10vh;
+    width: 100vw;
+    font-family: 'Bitter', serif;
+}
+
+#fourth-section > article:first-of-type{
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 3vw;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #1e5d62;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+}
+
+#fourth-section > article:first-of-type header{
+    width: 100%;
+    height: 15vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+    background-image: url("agenda.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#fourth-section > article:nth-of-type(2){
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 28vw;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #1e5d62;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+}
+
+#fourth-section > article:nth-of-type(2) header{
+    width: 100%;
+    height: 15vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+    background-image: url("agenda.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#fourth-section > article:nth-of-type(3){
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 52vw;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #1e5d62;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+}
+
+#fourth-section > article:nth-of-type(3) header{
+    width: 100%;
+    height: 15vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+    background-image: url("agenda.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#fourth-section > article:last-of-type{
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 76vw;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #1e5d62;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+}
+
+#fourth-section > article:last-of-type header{
+    width: 100%;
+    height: 15vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+    background-image: url("agenda.png");
+    background-position: center;
+    background-repeat: no-repeat;
 }
