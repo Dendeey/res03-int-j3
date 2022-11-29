@@ -17,6 +17,7 @@ body > header{
     width: 100vw;
     height: 8vh;
     top: 0;
+    z-index: 1;
 }
 
 body > header > nav{
@@ -38,5 +39,145 @@ body > header > nav ul li{
 }
 
 #first-section{
-    background-image: url("");
+    background-image: url("teacher.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+
+#first-section > section{
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 35vh;
+}
+
+h1{
+    color: white;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: white;
+    font-size: 2.25em;
+    margin: 0;
+    padding: 0;
+}
+
+strong{
+    color: #d52a54;
+}
+
+#second-section{
+    background-color: white;
+    height: 100vh;
+}
+
+#second-section > header{
+    margin: 10vh;
+}
+
+h3{
+    text-align: center;
+    font-size: 2em;
+}
+
+#second-section > section:first-of-type{
+    height: 30vh;
+    width: 35vw;
+    position: absolute;
+    margin-top: 6vh;
+    margin-left: 12vw;
+}
+
+#second-section > section:last-of-type{
+    height: 30vh;
+    width: 35vw;
+    position: absolute;
+    margin-top: 6vh;
+    margin-left: 53vw;
+}
+
+#third-section{
+    background-color: #0b6ccd;
+    height: 100vh;
+}
+
+h4{
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    margin-top: 10vh;
+    width: 100vw;
+    font-family: 'Bitter', serif;
+}
+
+#third-section > article:first-of-type{
+    height: 35vh;
+    width: 22vw;
+    position: absolute;
+    margin-top: 28vh;
+    margin-left: 10vw;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+}
+
+#third-section > article:first-of-type > header{
+    background-image: url("code.jpeg");
+    background-size: cover;
+    height: 12vh;
+    width: 100%;
+}
+
+h5{
+    color: white;
+    text-align: center;
+}
+
+#third-section > article:nth-of-type(2){
+    height: 35vh;
+    width: 22vw;
+    position: absolute;
+    margin-top: 28vh;
+    margin-left: 40vw;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+}
+
+#third-section > article:nth-of-type(2) > header{
+    background-image: url("design.jpeg");
+    background-size: cover;
+    height: 12vh;
+    width: 100%;
+}
+
+h6{
+    color: white;
+    text-align: center;
+}
+
+#third-section > article:last-of-type{
+    height: 35vh;
+    width: 22vw;
+    position: absolute;
+    margin-top: 28vh;
+    margin-left: 70vw;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+}
+
+#third-section > article:last-of-type > header{
+    background-image: url("management.jpeg");
+    background-size: cover;
+    height: 12vh;
+    width: 100%;
+}
+
+h7{
+    color: white;
+    text-align: center;
 }
